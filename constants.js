@@ -8,10 +8,10 @@ const prompts = [
     ["who is ahod","who is ahod?","ahod","who is ahod for aids"],
     ["Who is hod","hod","who is hod?","who is hod for department of aids"],
     [
-      "cheif guest","who is the cheif guest","can i know about cheif guest","cheif guest"
+      "cheif guest","who is the cheif guest","can i know about cheif guest","cheif guest","Cheif guest"
     ],
-    ["event name?","Event name","Name of the event?","event"],
-    ["time?"."time","whats the time of the event","what is the time of the event"],
+    ["event name?","Event name","Name of the event?","event","Event"],
+    ["time?","time","whats the time of the event","what is the time of the event","Time","Time?"],
     ["bad", "bored", "tired"],
     ["help me", "tell me story", "tell me joke"],
     ["ah", "yes", "ok", "okay", "nice"],
