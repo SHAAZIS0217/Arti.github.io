@@ -17,7 +17,7 @@ document.addEventListener("DOMContentLoaded", () => {
     // Remove digits - not sure if this is best
     // But solves problem of entering something like 'hi1'
   
-    let text = input.toLowerCase().replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
+    let text = input.toLowerCase();
     text = text
       .replace(/ a /g, " ")   // 'tell me a story' -> 'tell me story'
       .replace(/i feel /g, "")
@@ -30,6 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/ is /g,"")
       .replace(/ tell /g,"")
       .replace(/me/g,"");
+    text = text.replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
   
     if (compare(prompts, replies, text)) { 
       // Search for exact match in `prompts`
@@ -44,7 +45,7 @@ document.addEventListener("DOMContentLoaded", () => {
       // If no match, check if message contains `coronavirus`
       product = princi[Math.floor(Math.random() * princi.length)];
     } 
-    else if (text.match(/(time?|time|exact|time|correct)/gi)) {
+    else if (text.match(/(time|time?|exact|time|correct)/gi)) {
       // If no match, check if message contains `coronavirus`
       product = time[Math.floor(Math.random() * time.length)];
     }  else {
