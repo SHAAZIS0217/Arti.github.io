@@ -24,7 +24,11 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/whats/g, "what is")
       .replace(/please /g, "")
       .replace(/ please/g, "")
-      .replace(/r u/g, "are you");
+      .replace(/r u/g, "are you")
+      .replace(/who /g,"")
+      .replace(/ is /g,"")
+      .replace(/tell/g,"")
+      .replace(/me/g,"");
   
     if (compare(prompts, replies, text)) { 
       // Search for exact match in `prompts`
