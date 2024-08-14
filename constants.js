@@ -4,7 +4,7 @@ const prompts = [
     ["hi", "hey", "hello", "good morning", "good afternoon","whatsup"],
     ["date","when association","when association meeting?","date of the association meeting"],
     ["what are you doing", "what is going on", "what is up"],
-    ["venue","Venue","where is venue","where is venue?","where venue","where is the event","where is the event?","Where is the event"],
+    ["venue","venue","where is venue","where is venue?","where venue","where is the event","where is the event?","Where is the event"],
     ["who is ahod","who is ahod?","ahod","who is ahod for aids"],
     ["Who is hod","hod","who is hod?","who is hod for department of aids"],
     [
@@ -14,7 +14,7 @@ const prompts = [
     ["time?","time","whats the time of the event","what is the time of the event","Time","Time?"],
     ["who is the chairman","chairman","chairman name", "chair man"],
     ["executive director","executive director name","who is executive director","ed","executive","director"],
-    ["Principal","who is the Principal","Principal name","Principal name?","College of the principal"],
+    ["principal","who is the principal","principal name","principal name?","college of the principal"],
     ["bye", "good bye", "goodbye", "see you later"],
     ["what should i eat today"],
     ["bro"],
