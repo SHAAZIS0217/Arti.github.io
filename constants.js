@@ -10,8 +10,8 @@ const prompts = [
     [
       "chief guest","who is the chief guest","can i know about cheif guest","chief guest","Chief guest"
     ],
-    ["event name?","Event name","Name of the event?","event","Event"],
-    ["time?","time","whats the time of the event","what is the time of the event","Time","Time?"],
+    ["event name?","Event name","name of the event?","event","event"],
+    ["time","time?","whats the time of the event","what is the time of the event","time","time?"],
     ["who is the chairman","chairman","chairman name", "chair man"],
     ["executive director","executive director name","who is executive director","ed","executive","director"],
     ["principal","who is the principal","principal name","principal name?","college of the principal"],
@@ -66,3 +66,4 @@ const prompts = [
   // Whatever else you want :)
   
   const ed = ["Sir name is Dr. S.Kuppuswamy " , "Dr. S.Kuppuswamy" , "he is Dr. S.Kuppuswamy"];
+  const princi = ["Sir name is Dr. D.Srinivasan" , "Dr. D.Srinivasan" , "he is Dr. D.Srinivasan"];
