@@ -45,7 +45,11 @@ document.addEventListener("DOMContentLoaded", () => {
     else if (text.match(/(principal|princi|pri)/gi)) {
       // If no match, check if message contains `coronavirus`
       product = princi[Math.floor(Math.random() * princi.length)];
-    } 
+    }
+    else if (text.match(/(venue|place|location|locate|where)/gi)) {
+      // If no match, check if message contains `coronavirus`
+      product = venue[Math.floor(Math.random() * venue.length)];
+    }  
     else if (text.match(/(time|time?|exact|time|correct)/gi)) {
       // If no match, check if message contains `coronavirus`
       product = time[Math.floor(Math.random() * time.length)];
