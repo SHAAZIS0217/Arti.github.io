@@ -21,13 +21,14 @@ document.addEventListener("DOMContentLoaded", () => {
     text = text
       .replace(/ a /g, " ")   // 'tell me a story' -> 'tell me story'
       .replace(/i feel /g, "")
-      .replace(/whats/g, "what is")
+      .replace(/whats/g, "")
+      .replace(/what is/g,"")
       .replace(/please /g, "")
       .replace(/ please/g, "")
-      .replace(/r u/g, "are you")
+      .replace(/are you/g, "")
       .replace(/who /g,"")
       .replace(/ is /g,"")
-      .replace(/tell/g,"")
+      .replace(/ tell /g,"")
       .replace(/me/g,"");
   
     if (compare(prompts, replies, text)) { 
@@ -35,10 +36,18 @@ document.addEventListener("DOMContentLoaded", () => {
       product = compare(prompts, replies, text);
     } else if (text.match(/thank/gi)) {
       product = "You're welcome!"
-    } else if (text.match(/(Executive|executive|director|ed|ED|Ed)/gi)) {
+    } else if (text.match(/(executive|director|ed|executive director)/gi)) {
       // If no match, check if message contains `coronavirus`
       product = ed[Math.floor(Math.random() * ed.length)];
-    } else {
+    }
+    else if (text.match(/(principal|princi|pri)/gi)) {
+      // If no match, check if message contains `coronavirus`
+      product = princi[Math.floor(Math.random() * princi.length)];
+    } 
+    else if (text.match(/(time?|time|exact|time|correct)/gi)) {
+      // If no match, check if message contains `coronavirus`
+      product = time[Math.floor(Math.random() * time.length)];
+    }  else {
       // If all else fails: random alternative
       product = alternative[Math.floor(Math.random() * alternative.length)];
     }
