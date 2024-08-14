@@ -31,6 +31,7 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/ tell /g,"")
       .replace(/me/g,"");
     text = text.replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
+    console.log(time);
   
     if (compare(prompts, replies, text)) { 
       // Search for exact match in `prompts`
