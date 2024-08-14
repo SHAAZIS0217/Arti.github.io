@@ -29,9 +29,9 @@ document.addEventListener("DOMContentLoaded", () => {
       .replace(/who /g,"")
       .replace(/ is /g,"")
       .replace(/ tell /g,"")
-      .replace(/me/g,"");
+      .replace(/ me /g,"");
     text = text.replace(/[^\w\s]/gi, "").replace(/[\d]/gi, "").trim();
-    console.log(time);
+    console.log(text);
   
     if (compare(prompts, replies, text)) { 
       // Search for exact match in `prompts`
