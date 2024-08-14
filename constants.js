@@ -8,13 +8,13 @@ const prompts = [
     ["who is ahod","who is ahod?","ahod","who is ahod for aids"],
     ["Who is hod","hod","who is hod?","who is hod for department of aids"],
     [
-      "cheif guest","who is the cheif guest","can i know about cheif guest","cheif guest","Cheif guest"
+      "chief guest","who is the chief guest","can i know about cheif guest","chief guest","Chief guest"
     ],
     ["event name?","Event name","Name of the event?","event","Event"],
     ["time?","time","whats the time of the event","what is the time of the event","Time","Time?"],
-    ["bad", "bored", "tired"],
-    ["help me", "tell me story", "tell me joke"],
-    ["ah", "yes", "ok", "okay", "nice"],
+    ["who ia the chairman","chairman","chairman name", "chair man"],
+    ["executive director","executive director name","who is executive director"],
+    ["Principal","who is the Principal","Principal name","Principal name?","College of the principal"],
     ["bye", "good bye", "goodbye", "see you later"],
     ["what should i eat today"],
     ["bro"],
@@ -43,9 +43,9 @@ const prompts = [
     ["Mr. M.Bhrath"],
     ["Intelligence Association Meeting"],
     ["The Event Starts At 10 AM"],
-    ["Why?", "Why? You shouldn't!", "Try watching TV"],``
-    ["What about?", "Once upon a time..."],
-    ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
+    ["Dr. K.Ramakrishnan"],``
+    ["Dr. S.Kuppuswamy"],
+    ["Dr. D.Srinivasan"],
     ["Bye", "Goodbye", "See you later"],
     ["Sushi", "Pizza"],
     ["whatsup Bro!"],
