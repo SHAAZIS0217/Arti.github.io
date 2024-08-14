@@ -43,7 +43,7 @@ const prompts = [
     ["Mr. M.Bhrath"],
     ["Intelligence Association Meeting"],
     ["The Event Starts At 10 AM"],
-    ["Dr. K.Ramakrishnan"],``
+    ["Dr. K.Ramakrishnan"],
     ["Dr. S.Kuppuswamy"],
     ["Dr. D.Srinivasan"],
     ["Bye", "Goodbye", "See you later"],
@@ -65,4 +65,4 @@ const prompts = [
   
   // Whatever else you want :)
   
-  const coronavirus = ["Please stay home", "Wear a mask", "Fortunately, I don't have COVID", "These are uncertain times"]
+  const ed = ["Sir name is Dr. S.Kuppuswamy " , "Dr. S.Kuppuswamy" , "he is Dr. S.Kuppuswamy"];
