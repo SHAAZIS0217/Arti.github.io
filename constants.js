@@ -8,10 +8,10 @@ const prompts = [
     ["who is ahod","who is ahod?","ahod","who is ahod for aids"],
     ["Who is hod","hod","who is hod?","who is hod for department of aids"],
     [
-      "cheif guest","who is the cheif guest","can i know about cheif guest"
+      "cheif guest","who is the cheif guest","can i know about cheif guest","cheif guest"
     ],
     ["event name?","Event name","Name of the event?","event"],
-    ["happy", "good", "fun", "wonderful", "fantastic", "cool"],
+    ["time?"."time","whats the time of the event","what is the time of the event"],
     ["bad", "bored", "tired"],
     ["help me", "tell me story", "tell me joke"],
     ["ah", "yes", "ok", "okay", "nice"],
@@ -42,7 +42,7 @@ const prompts = [
     ["Dr. Kiran Bala"],
     ["Mr. M.Bhrath"],
     ["Intelligence Association Meeting"],
-    ["Have you ever felt bad?", "Glad to hear it"],
+    ["The Event Starts At 10 AM"],
     ["Why?", "Why? You shouldn't!", "Try watching TV"],``
     ["What about?", "Once upon a time..."],
     ["Tell me a story", "Tell me a joke", "Tell me about yourself"],
