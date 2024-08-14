@@ -67,3 +67,4 @@ const prompts = [
   
   const ed = ["Sir name is Dr. S.Kuppuswamy " , "Dr. S.Kuppuswamy" , "he is Dr. S.Kuppuswamy"];
   const princi = ["Sir name is Dr. D.Srinivasan" , "Dr. D.Srinivasan" , "he is Dr. D.Srinivasan"];
+const time = ["time is 10.00 AM","The event starts at 10.00 AM" , " its 10.00 AM , Hoping to see you there"];
