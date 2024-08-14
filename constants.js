@@ -40,7 +40,7 @@ const prompts = [
     ["1st Floor Conference Hall"],
     ["Mrs. V.Sankari & Ms. R.Dhaaraani"],
     ["Dr. Kiran Bala"],
-    ["Swami Nithiyanandha"],
+    ["Mr. M.Bhrath"],
     ["Intelligence Association Meeting"],
     ["Have you ever felt bad?", "Glad to hear it"],
     ["Why?", "Why? You shouldn't!", "Try watching TV"],``
