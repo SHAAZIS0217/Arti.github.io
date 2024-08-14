@@ -39,7 +39,7 @@ const prompts = [
     ],
     ["1st Floor Conference Hall"],
     ["Mrs. V.Sankari & Ms. R.Dhaaraani"],
-    ["Dr. Kiran Bala"],
+    ["Dr.B. Kiran Bala"],
     ["Mr. M.Bharath"],
     ["Intelligence Association Meeting"],
     ["The Event Starts At 10 AM"],
